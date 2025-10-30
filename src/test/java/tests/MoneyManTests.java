@@ -37,7 +37,7 @@ public class MoneyManTests extends BaseTest {
     @Tag("smoke")
     @Tag("regression")
     @DisplayName("Проверка наличия формы заявки в пункте 'Связаться с нами' ")
-    public void findFormOstavitZaprosAfterClickSvyazatsyaSNami() {
+    public void findFormLeaveARequestAfterClickContactUs() {
         faqContactPage.clickOnContactLink()
                 .verifyFormTitleText();
     }
@@ -46,7 +46,7 @@ public class MoneyManTests extends BaseTest {
     @Tag("smoke")
     @Tag("regression")
     @DisplayName("Проверка наличия формы заявки в пункте 'Получить деньги' ")
-    public void findFormOstavitZaprosAfterClickPoluchitDengi() {
+    public void findFormLeaveARequestAfterClickGetMoney() {
         mainPage.clickGetMoneyButton();
 
         clientAreaPage.checkContactForm();
