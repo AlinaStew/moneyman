@@ -37,7 +37,7 @@ public class MoneyManTests extends BaseTest {
     @Tag("smoke")
     @Tag("regression")
     @DisplayName("Проверка наличия формы заявки в пункте 'Связаться с нами' ")
-    public void findFormLeaveARequestAfterClickContactUs() {
+    public void findFormSendARequestAfterClickContactUs() {
         faqContactPage.clickOnContactLink()
                 .verifyFormTitleText();
     }
@@ -46,9 +46,8 @@ public class MoneyManTests extends BaseTest {
     @Tag("smoke")
     @Tag("regression")
     @DisplayName("Проверка наличия формы заявки в пункте 'Получить деньги' ")
-    public void findFormLeaveARequestAfterClickGetMoney() {
+    public void findFormSendARequestAfterClickGetMoney() {
         mainPage.clickGetMoneyButton();
-
         clientAreaPage.checkContactForm();
     }
 
@@ -56,11 +55,9 @@ public class MoneyManTests extends BaseTest {
     @Tag("smoke")
     @Tag("regression")
     @DisplayName("Проверка наличия формы заявки в тарифе 'Старт' ")
-    public void checkContactFormOfStartTarif() {
+    public void checkContactFormOfStartTariff() {
         headerBarPage.clickOnFirstLoanWithoutPercent();
-
         firstLoanWithoutPercentPage.clickOnTarifStartOformit();
-
         clientAreaPage.checkContactForm();
     }
 }

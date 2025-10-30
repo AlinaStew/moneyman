@@ -32,13 +32,13 @@ public class BaseTest  {
         Configuration.browserVersion = System.getProperty("browserVersion", "128");
         Configuration.pageLoadStrategy = "eager";
         Configuration.baseUrl = "https://moneyman.ru/";
-        Configuration.remote = System.getProperty("remoteUrl");
+        /*Configuration.remote = System.getProperty("remoteUrl");
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("selenoid:options", Map.<String, Object>of(
                 "enableVNC", true,
                 "enableVideo", true
         ));
-        Configuration.browserCapabilities = capabilities;
+        Configuration.browserCapabilities = capabilities; */
     }
 
     @BeforeEach
