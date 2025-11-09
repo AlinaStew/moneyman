@@ -10,6 +10,8 @@ import static com.codeborne.selenide.WebDriverRunner.url;
 import static utils.TestData.INVALID_PASSWORD;
 import static utils.TestData.INVALID_PHONE;
 
+@Tag("regression")
+@DisplayName("MoneyMan site UI tests")
 public class MoneyManTests extends BaseTest {
 
     @Test
@@ -24,7 +26,6 @@ public class MoneyManTests extends BaseTest {
     }
 
     @Test
-    @Tag("regression")
     @DisplayName("Проверка перехода на сайт ГосУслуг")
     public void checkToGosUslugiSite() {
         mainPage.clickGosUslugiButton();
@@ -35,7 +36,6 @@ public class MoneyManTests extends BaseTest {
 
     @Test
     @Tag("smoke")
-    @Tag("regression")
     @DisplayName("Проверка наличия формы заявки в пункте 'Связаться с нами' ")
     public void findFormSendARequestAfterClickContactUs() {
         faqContactPage.clickOnContactLink()
@@ -44,7 +44,6 @@ public class MoneyManTests extends BaseTest {
 
     @Test
     @Tag("smoke")
-    @Tag("regression")
     @DisplayName("Проверка наличия формы заявки в пункте 'Получить деньги' ")
     public void findFormSendARequestAfterClickGetMoney() {
         mainPage.clickGetMoneyButton();
@@ -53,7 +52,6 @@ public class MoneyManTests extends BaseTest {
 
     @Test
     @Tag("smoke")
-    @Tag("regression")
     @DisplayName("Проверка наличия формы заявки в тарифе 'Старт' ")
     public void checkContactFormOfStartTariff() {
         headerBarPage.clickOnFirstLoanWithoutPercent();
