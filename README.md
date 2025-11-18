@@ -70,7 +70,7 @@
 
 
 <a id="jenkins"></a>
-## <img alt="Jenkins" height="25" src="images/icons/Jenkins.svg" width="25"/></a><a name="Сборка"></a>Сборка в [Jenkins](https://jenkins.autotests.cloud/job/Kod3ik_qa_guru_x5/)</a>
+## <img alt="Jenkins" height="25" src="images/icons/Jenkins.svg" width="25"/></a><a name="Сборка"></a>Сборка в [Jenkins](https://jenkins.autotests.cloud/job/Money%20Man%20Tests/)</a>
 Jenkins используется для автоматизации сборки и тестирования проекта. Он позволяет любому члену команды запускать тесты в любое время.
 <p align="center">  
 <a href="https://jenkins.autotests.cloud/job/Money%20Man%20Tests/"><img src="images/screenshots/jenkins-build.png" alt="Jenkins" width="950"/></a>  
@@ -104,7 +104,7 @@ ${TASK}
 ```
 
 <a id="allure"></a>
-## <img alt="Allure" height="25" src="images/icons/Allure.svg" width="25"/></a> <a name="Allure"></a>Allure [отчет](https://jenkins.autotests.cloud/job/C28-twentyny-alfabank-ui/allure/)</a>
+## <img alt="Allure" height="25" src="images/icons/Allure.svg" width="25"/></a> <a name="Allure"></a>Allure [отчет](https://jenkins.autotests.cloud/job/Money%20Man%20Tests/allure/)</a>
 
 Allure используется для генерации подробных отчетов о тестировании. Он предоставляет информацию о результатах тестов, включая графики и диаграммы, что помогает анализировать качество продукта и выявлять проблемные области.
 ### Главная страница
@@ -144,10 +144,10 @@ Allure используется для генерации подробных о�
 </p>
 
 <a id="testops"></a>
-## <img alt="Allure TestOps" height="25" src="images/icons/AllureTestOps.svg" width="25"/></a> Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/4356/test-cases?treeId=0)
+## <img alt="Allure TestOps" height="25" src="images/icons/AllureTestOps.svg" width="25"/></a> Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/4992/test-cases?treeId=0)
 Allure TestOps — это платформа для централизованного управления тестами, автоматизации тестирования и анализа результатов. Она поддерживает различные CI/CD инструменты и тестовые фреймворки, предоставляя подробные отчеты и аналитику.
 
-### Allure TestOps Обзор
+### Allure TestOps Dashboard
 
 <p align="center">  
 <img title="Manual cases" src="images/screenshots/dashboard.png" width="850">  
